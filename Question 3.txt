@@ -1,0 +1,12 @@
+void main() {
+  print("\nQuestion 3) Write a program to find out the sum of series.");
+  print("Test Data:");
+  print("\nThe Sum of series is:");
+  print("1 + 5 + 9 + 13 + 17 + 21 + 25 + 29 + 33 + 37 = 190");
+  print("***************************************************");
+
+  var sum = [1, 5, 8, 9, 22, 35, 37, 54, 45, 80, 4].reduce((a, b) => a + b);
+  print("\nTHE ANSWER OF QUESTION 3 IS:");
+  print("THE SUM OF ALL NUMBERS IS: ${sum}");
+  print("\n*****THE END OF QUESTION 3*****");
+}

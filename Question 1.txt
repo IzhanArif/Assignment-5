@@ -1,0 +1,13 @@
+void main() {
+  print(
+      "\nQuestion 1) Write a program to calculate the factorial of a given number.");
+  var num = 6;
+  var factorial = 1;
+
+  for (var i = num; i >= 1; i--) {
+    factorial *= i;
+  }
+  print("\nTHE ANSWER OF QUESTION 1 IS:");
+  print("THE FACTORIAL OF 6 IS:${factorial}");
+  print("\n*****THE END OF QUESTION 1*****");
+}

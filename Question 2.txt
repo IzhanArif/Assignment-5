@@ -1,0 +1,20 @@
+import 'dart:io';
+
+void main() {
+  print(
+      "\n Question 2) Write a program to make such a pattern like a pyramid with a number which will repeat the number in the same row.");
+  print("\n1");
+  print("2 2");
+  print("3 3 3");
+  print("4 4 4 4");
+  print("\n");
+  print("THE ANSWER IS GIVEN BELOW");
+  print("\n***********************");
+
+  for (int i = 1; i < 5; i++) {
+    for (int j = 0; j <= i; j++) {
+      stdout.write(i);
+    }
+    stdout.writeln();
+  }
+}
